@@ -2,8 +2,8 @@
   "client_id": "https://saurabh-org.github.io/saurabh-poc-demo/.well-known/oauth-client-v2.json",
   "client_name": "Maverics AI Gateway",
   "redirect_uris": ["http://localhost:58080/atlassian/jira/oidc/callback"],
-  "grant_types": ["authorization_code"],
+  "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
   "token_endpoint_auth_method": "none",
-  "scope": "read:jira-work write:jira-work read:me"
+  "scope": "openid read:me read:account email read:jira-work write:jira-work offline_access"
 }
