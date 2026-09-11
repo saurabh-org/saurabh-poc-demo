@@ -1,0 +1,31 @@
+{
+  "issuer": "https://auth.atlassian.com/VCeDsk8ZHncYF1g234fKtc4lNipbBhu3",
+  "authorization_endpoint": "https://auth.atlassian.com/authorize?audience=https%3A%2F%2Fmcp.atlassian.com%2Fv1%2Fmcp%2Fauthv2",
+  "token_endpoint": "https://auth.atlassian.com/oauth/token",
+  "registration_endpoint": "https://auth.atlassian.com/VCeDsk8ZHncYF1g234fKtc4lNipbBhu3/dcr/register",
+  "jwks_uri": "https://auth.atlassian.com/.well-known/jwks.json",
+  "revocation_endpoint": "https://auth.atlassian.com/oauth/revoke",
+  "pushed_authorization_request_endpoint": "https://auth.atlassian.com/oauth/par",
+  "response_types_supported": [
+    "code",
+    "token"
+  ],
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "refresh_token",
+    "urn:ietf:params:oauth:grant-type:token-revoke",
+    "urn:ietf:params:oauth:grant-type:jwt-bearer",
+    "urn:ietf:params:oauth:grant-type:token-exchange"
+  ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "token_endpoint_auth_methods_supported": [
+    "none",
+    "client_secret_post",
+    "client_secret_basic",
+    "private_key_jwt"
+  ],
+  "client_id_metadata_document_supported": true
+}
