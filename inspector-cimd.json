@@ -1,0 +1,11 @@
+{
+  "client_id": "https://saurabh-org.github.io/saurabh-poc-demo/inspector-cimd.json",
+  "client_name": "MCP Inspector (local test)",
+  "redirect_uris": [
+    "http://127.0.0.1:6274/oauth/callback",
+    "http://localhost:6274/oauth/callback"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
+}
